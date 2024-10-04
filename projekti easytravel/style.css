@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+}
+
+footer {
+    background-color: rgba(120, 117, 181, 0.338);
+    border-radius: 10px;
+    margin: 0; /* Remove negative margin */
+    padding: 20px 0; /* Add padding to create space */
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Adjust the CSS for the main content to ensure it doesn't overlap with the video */
+main {
+    position: relative;
+    z-index: 1; /* Ensure main content appears above the video */
+    
+}
+
+.col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px color black;
+    position:relative;
+
+}
+
+.fs-4{
+    background-color:RGB(0, 123, 255);
+    padding: 8px;
+    color: white;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.mb-0{
+    
+    justify-content: center;
+    align-items: center;
+    border: 2px color  black;
+    padding: 20px;
+    background-color: #d8f2f3;
+    border-radius: 7px;
+    margin: 20px 40px;
+   
+    
+}
+
+.fst-italic{
+    display: flex;
+    justify-content: center;
+}
